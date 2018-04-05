@@ -1,0 +1,290 @@
+<html lang="en" class="<head>
+  <meta charset="UTF-8">
+  <title>Checkout!</title>
+  <link rel="stylesheet prefetch" href="https://yui.yahooapis.com/combo?pure/0.1.0/base-min.css&amp;pure/0.1.0/grids-min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+      <style>
+      @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+/*
+ * Variables
+ */
+/*
+ * CSS
+ */
+body 
+{
+  font: 1em/1.5 'Lato', sans-serif;
+  background: #ecf0f1;
+}
+.wrapper {
+  margin: 0.5em 0.5em 1em 0.5em;
+  padding: 1em 0.5em 0.5em 0.5em;
+  border-top: 0.5em solid #fff;
+  border-bottom: 0.25em solid #bdc3c7 !important;
+  background: #fff;
+  box-shadow: 0 0 0 0.5em rgba(189, 195, 199, 0);
+  -moz-transition: box-shadow 0.15s linear;
+  -o-transition: box-shadow 0.15s linear;
+  -webkit-transition: box-shadow 0.15s linear;
+  transition: box-shadow 0.15s linear;
+  /*
+   * beta
+   */
+  /*
+   * gamma
+   */
+}
+.wrapper:hover {
+  box-shadow: 0 0 0 0.5em rgba(189, 195, 199, 0.6);
+}
+.wrapper h2 {
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0 0 0.5em 0;
+}
+.wrapper h3 {
+  font-weight: 400;
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 1.2;
+}
+.wrapper address {
+  font-style: normal;
+  margin-bottom: 0.5em;
+}
+.wrapper ul {
+  margin: 0;
+}
+.wrapper li {
+  margin-bottom: 0.5em;
+  border-bottom: .25em solid #fff;
+  padding-bottom: 0.5em;
+}
+.wrapper li:last-child {
+  border: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.wrapper label {
+  cursor: pointer;
+}
+.wrapper input {
+  width: 1.15em;
+  height: 1.15em;
+  background: #fff;
+  margin-right: .25em;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 .25em #fff;
+  vertical-align: text-bottom;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-transition: background 0.15s linear;
+  -o-transition: background 0.15s linear;
+  -webkit-transition: background 0.15s linear;
+  transition: background 0.15s linear;
+}
+.wrapper input[type="number"] {
+  width: 1.75em;
+  height: 60%;
+  border: none;
+  padding: 0 0.25em;
+  text-align: center;
+  font-size: 2em;
+  position: relative;
+}
+.wrapper input[type="number"]:focus {
+  outline: none;
+  background: #ecf0f1;
+}
+.wrapper input:checked {
+  background: #ccc;
+}
+.wrapper img {
+  max-width: 100%;
+  max-height: 8em;
+  border: .25em solid #fff;
+}
+.wrapper table {
+  width: 100%;
+  border-spacing: 0 0.25em;
+  border-collapse: separate;
+  margin-top: -0.25em;
+}
+.wrapper th {
+  text-align: right;
+  padding-right: 1em;
+}
+.wrapper thead {
+  background: #e74c3c;
+}
+.wrapper thead th {
+  text-align: left;
+  padding: 0.5em;
+  color: #fff;
+}
+.wrapper thead th:last-child {
+  text-align: right;
+}
+.wrapper tr.alpha {
+  background: #e74c3c;
+  color: #fff;
+}
+.wrapper hr {
+  border: none;
+  border-bottom: 0.25em solid #fff;
+}
+.wrapper button {
+  border: none;
+  padding: 0.5em;
+  background: #ecf0f1;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-transition: background 0.15s linear;
+  -o-transition: background 0.15s linear;
+  -webkit-transition: background 0.15s linear;
+  transition: background 0.15s linear;
+}
+.wrapper button:before {
+  content: attr(data-icon);
+  padding-right: 0.5em;
+}
+.wrapper button.beta {
+  background: #1abc9c;
+  color: #fff;
+  font-weight: 700;
+  padding: 1em;
+  margin-top: 0.25em;
+  font-size: 1.25em;
+}
+.wrapper button.beta:hover {
+  background: #16a085;
+}
+.wrapper button.beta:before {
+  content: '\25B6';
+}
+.wrapper button.gamma:before {
+  content: '\25AA';
+  color: #bdc3c7;
+}
+.wrapper button.gamma:hover:before {
+  color: #ecf0f1;
+}
+.wrapper .text--right {
+  text-align: right;
+}
+.wrapper .wrapper--box {
+  color: #fff;
+  padding: 0.5em;
+  list-style-type: none;
+}
+.wrapper.wrapper__beta {
+  border-color: #2980b9;
+}
+.wrapper.wrapper__beta .wrapper--box {
+  background: #2980b9;
+}
+.wrapper.wrapper__beta h2 {
+  color: #3498db;
+}
+.wrapper.wrapper__beta li {
+  border-color: #3498db;
+}
+.wrapper.wrapper__beta input:checked {
+  background: #3498db;
+}
+.wrapper.wrapper__gamma {
+  border-color: #c0392b;
+}
+.wrapper.wrapper__gamma .wrapper--box {
+  border-top: 0.5em solid #c0392b;
+  color: #000;
+}
+.wrapper.wrapper__gamma h2,
+.wrapper.wrapper__gamma h3 {
+  color: #e74c3c;
+}
+.wrapper.wrapper__gamma hr {
+  border-color: #e74c3c;
+}
+thead {color:white;}
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+<body>
+  <div class="onepage-checkout">
+  <div class="pure-g-r">
+    <div class="pure-u-1-2">
+      <div class="wrapper wrapper__gamma">
+        <h2 class="__alpha">Checkout!</h2>
+        <table class="">
+          <thead>
+            <tr>
+              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quam esse illo vel architecto, magnam veniam, sequi similique distinctio consequuntur, possimus culpa mollitia sed. Reprehenderit consectetur, tctam beatae error cum.<br>Junior Webmaster Camp (JWCx)</td>
+            </tr>
+          </thead>
+          </table>
+      </div>
+    </div>
+  <div class="pure-u-1-4">
+      <div class="pure-u-1-1">
+        <div class="wrapper wrapper__beta">
+          <h2 class="__alpha">Payment</h2>
+          <ul class="wrapper--box">
+            <li>
+              <input type="radio" name="Payment" id="Credit Card">
+              <label for="Credit Card">Credit Card</label>
+            </li>
+            <li>
+              <input type="radio" name="Payment" id="Debit Card">
+              <label for="Debit Card">Debit Card</label>
+            </li>
+            <li>
+              <input type="radio" name="Payment" id="Paypal">
+              <label for="Paypal">Paypal</label>
+            </li>
+          </ul>
+        </div> 
+      </div>  
+    </div>
+  </div>
+</div>
+  <div class="container">
+  <div class="shopping-cart">
+    <div class="shopping-cart-header">
+      <i class="fa fa-shopping-cart cart-icon"></i><span class="badge">3</span>
+      <div class="shopping-cart-total">
+        <span class="lighter-text">Total:</span>
+        <span class="main-color-text">$1500</span>
+      </div>
+    </div> 
+    <ul class="shopping-cart-items">
+      <li class="clearfix">
+        <span class="item-name">Item name 1&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$500</span>
+        <span class="item-price">Item description...</span>
+      </li>
+      <li class="clearfix">
+        <span class="item-name">Item name 2&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$500</span>
+        <span class="item-price">Item description...</span>
+      </li>
+      <li class="clearfix">
+        <span class="item-name">Item name 3&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$500</span>
+        <span class="item-price">Item description...</span>
+      </li>
+    </ul>
+    <a href="#" class="button">Checkout</a>
+  </div>
+</div>   
+	<script src="js/index.js"></script>
+	<div class="form-wrapper cf">
+	<div class="seven col">
+        <form class="form">
+          <input type="text" name="name" id="name" placeholder="Name on card">
+          <input type="text" name="card" id="card" placeholder="Credit card number">
+          <div class="submit-wrapper">
+          </div>
+        </form>
+      </div>
+	</div>  
+</body>
+</html>
